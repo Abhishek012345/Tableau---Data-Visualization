@@ -1,0 +1,331 @@
+Tableau public vs tableau desktop , tableau reader(optional) (try to install it)
+1} limited connections, server side is limited to google sheets, open data etc
+2}There will be no live or extract connection (by default it will be only extract)
+What you can do is, "Download" the Workbooks from your account which will be saved as Tableau packaged workbook with extension .twbx and you can share them with anybody
+3}tableau public, you cannot save the workbook on your local machines, only to tableau public gallery, absolutely no security involved , user level security will not come into play
+4}if somebody has sent you a tableau workbook , you cannot open it using tableau public, only what you have downloaded from tableau public gallery, you can open using tableau public else use "tableau reader"
+5}Copy function will not be there in tableau public, print to pdf will also not be there in tableau public
+
+
+Live , extract-create local database store it in local machine
+Live - means direct connection from underlying database
+This extract is created by tableau's fast data engine, it is saved with extension .hyper earlier it was tde(tableau data extract) extract, response is very qucik with hyper, it will be stored in my local machine
+extract-Tableau data extract, simply ecxtract data, you can also extract limited data also
+extract can be copied or exported( image format-.png, data-msaccess format, or pdf), then save it as twbx (self contained package)
+it can be uplodaded onto server (you can publish it on tableau public if data is generic)
+
+Tableau extract , Tableau live( direct connection to your databse)
+this option is present in your tableau desktop 
+in case of tableau public by default everything is your extract
+2 different lines businesses,cant do cross databse connectivuty because my performance will degrade
+join is used -less data less tables 
+blending-data coming from lot of tables dont want to create one big table , keeping connections seperate
+data blending- two data sources (coffe chain and global superstore)
+If we have big databses (like 5 tables from one dataset and 5 tables from another dataset)
+If we can combine at work sheet level with 2 different connections, then efficiency will improve- Data blending
+connection with 2 different databses(global superstore, coffe chain)
+
+The following view is built with help of VIzql server
+Rows : profit, category
+Columns: region 
+Joins: Inner join , left join, right join , full outer join
+cross database(conncetivity) join (coffee chain)-ms access and im joining with my sample superstore(excel file)
+orange bars, blue bars , tableau is smart enough
+
+Data pane , analytics pane, 
+column shelf, row shelf, page shelf, filter shelf, marks card, show me(very popular visualisations will show up here)-24 charts are popular
+1}selection on data pane, tableau will activate certain set of charts- create bar chart , text table
+TABLEAU follows best practices in visualisation
+
+when you go to show me ppanle bottom section ,min fields are important , how many measures we need , how many dimensions we need
+(example, profit vs regions)
+column shelf will get aligned along x axis, row shelf will get aligned on y axis
+you shoudld refresh this extract manually if you do it on tableau desktop, however you upload it on on tableau server, you can set the frequency(monthly ,daily, hourly with the help of scheduler )etc.
+The following view is built with help of VIzql server
+Rows : profit, category
+Columns: region 
+Joins: Inner join , left join, right join , full outer join
+cross database(conncetivity) join (coffee chain)-ms access and im joining with my sample superstore(excel file)
+orange bars, blue bars , tableau is smart enough
+
+change the name of combine connection to some custom named name
+create folders
+group by folder
+hierarchies parent child explaination (drilldown and rollup features)
+
+
+sample superstore datset
+global superstore dataset
+coffe chain ms access dataset
+
+
+
+mandarmakhi007@gmail.com,
+Pranitha.ravindranath@gmail.com,
+chandanregins1@gmail.com,
+rajatsinghal1993@gmail.com,
+pritikjaiswal89@gmail.com,
+pbharath665@gmail.com,
+rashmirushbh1998@gmail.com,
+tarunsai139@gmail.com,
+kaushik07017@gmail.com,
+vishwasrevankar@gmail.com,
+hardikvora200@gmail.com,
+tushar.24.ts@gmail.com,
+kavya kala varshini vedula <kavyaprasad2010@gmail.com>,
+arvindaxee@gmail.com,
+nikkisalunkhe10@gmail.com,
+email2suhasiyer@gmail.com,
+ashwaniakgec@gmail.com,
+shilpa.p.kate@gmail.com,
+priyeshashrivastava@gmail.com,
+harishsaiju21@gmail.com,
+snehalkadolkar10@gmail.com,
+shravani.srisailam85@gmail.com,
+arun.43k@gmail.com,
+anujakoul@gmail.com,
+sucharita.dhn87@gmail.com,
+rakeshacharya13@gmail.com,
+deepikavpotdar@gmail.com,
+vmutta88@gmail.com,
+abhay.agnihotri1395@gmail.com,
+ngowthaman22@gmail.com,
+srilekhakella1696@gmail.com,
+smamidala81@hotmail.com,
+pooja.shirbhate19@gmail.com,
+vinayb899@gmail.com,
+nrohith55@gmail.com,
+heroorkrishna@gmail.com,
+rrajkumar.ipt@gmail.com,
+pdorcl390@gmail.com,
+mankarprajay@gmail.com,
+jast1631@gmail.com,
+digvijoyee@gmail.com,
+sanjivanipanse@gmail.com,
+ngvarsha9@gmail.com,
+Chaitu.chaitanya212@gmail.com,
+nnuzma@gmail.com,
+jadhavakshayabj@gmail.com,
+tpoorvee@gmail.com,
+swatiricke08@gmail.com,
+gouravmhatre555@gmail.com,
+sanjeev1.dubey@gmail.com,
+prasad.shetty809@gmail.com,
+adiba.anjum18@gmail.com,
+mridus852@gmail.com,
+sonih277@gmail.com,
+patelarti91@gmail.com,
+poojareddy.goodgirl@gmail.com,
+kams.novel@gmail.com,
+alokranjanthakur93@gmail.com,
+pariharsatish32@gmail.com,
+manngeshh@gmail.com,
+adityadusane8@gmail.com,
+markyuviofficial@gmail.com,
+devyanisrivastava8@gmail.com,
+lapurwa@gmail.com,
+sham91j@gmail.com,
+varunrao096@gmail.com,
+tghag7@gmail.com,
+nilesh_sinkar2003@yahoo.com,
+venugopaldas0@gmail.com,
+aditeyaraj3004@gmail.com,
+Sharmila.gowthami@gmail.com,
+anunaidu2303@gmail.com,
+gk400456@gmail.com,
+emailrahul95@gmail.com,
+Veeramasuneni@gmail.com,
+shilpaachary@yahoo.com,
+devanshiprajapati98@gmail.com,
+morerahul1994@gmail.com,
+shashankgujjar15@gmail.com,
+sapkal.niranjan@gmail.com,
+pralaynarmada@gmail.com,
+aaks1993@gmail.com,
+nivedithamadinur@gmail.com,
+sonaliraj2703@gmail.com,
+shraddhabhat187@gmail.com,
+chamanbaloch99@gmail.com,
+srinivassunkavalli1@gmail.com,
+rushikesht599@gmail.com,
+poojamaheshwari009@gmail.com,
+sumanpramanik407@gmail.com,
+rashmi.rkulkarni11@gmail.com,
+abirpbca@gmail.com,
+shilpakarnoliya@gmail.com,
+farzeenaaman@gmail.com,
+galekhya1999@gmail.com,
+sajirjm@gmail.com,
+shilpa.sonawane7@gmail.com,
+pushpendra2588@gmail.com,
+imransyed077@outlook.com,
+shikhar85@gmail.com,
+tarun.shetty37@gmail.com,
+sayaliadmane@gmail.com,
+meghanaveenkumarherimath@gmail.com,
+poojagogia23@gmail.com,
+aditya834@gmail.com,
+vishwanath415@gmail.com,
+punamchaudhari29@gmail.com,
+mounikasai.tadepalli@gmail.com,
+eswarkck@gmail.com,
+shubhammore3016@gmail.com,
+ankitashahk12@gmail.com,
+kartikjadhav05@gmail.com,
+gopaler24@gmail.com,
+MLM4LEO15@gmail.com,
+ramyahimabindu@gmail.com,
+saha.nabonita@gmail.com,
+samegharaj.nbnscoe@gmail.com,
+rushabhgudekar@gmail.com,
+batra.mausam@gmail.com,
+prasadraja17@gmail.com,
+gkaran443@gmail.com,
+ashissethi05@gmail.com,
+punyatoya.pradhan@gmail.com,
+mayuri.dhoble88@gmail.com,
+thmdharan444@gmail.com,
+deekshakcmys@gmail.com,
+saileev@gmail.com,
+aishwaryaghaytadak15@gmail.com,
+sm912047@gmail.com,
+aarti0807singh@gmail.com,
+chappaswaroop322@gmail.com,
+sheyas hk <hkshreyas1994@gmail.com>,
+Akshaya Rajesh <akshayarajesh19@gmail.com>,
+maangeshasthana68@gmail.com,
+shaveesharma1@gmail.com,
+Shilpa.p.kate@gmail.com,
+ashishdhg@gmail.com,
+pruthvimg681996@gmail.com,
+sethumadhavanm8@gmail.com,
+pravinknr@gmail.com,
+Amolnagose12@gmail.com,
+patil_aakash7@yahoo.com,
+g.pavithragouda22@gmail.com,
+patilgauravdharmraj@gmail.com,
+suresh9030mailme@gmail.com,
+rohan.deshpande20@gmail.com,
+kanthi_s69@yahoo.com,
+Vaishnavi.em@gmail.com,
+belenamita091@gmail.com,
+mahadevmanu27@gmail.com,
+sumit7491@gmail.com,
+chennavinayak666666@gmail.com,
+ud1981@gmail.com,
+Aakash.patil7595@gmail.com,
+poojahegdelp@gmail.com,
+ankitashahkkel@gmail.com,
+pandeydeepak234@gmail.com,
+vinayakmane2708@gmail.com,
+midhunshyam@hotmail.com,
+kstarakeshwari@gmail.com,
+rohangudekar4@gmail.com,
+pednekarsaeesha@gmail.com,
+ypriyanshu007@gmail.com,
+vineetaagarwal13@gmail.com
+rameshkrish6677@gmail.com
+biswas.priyanka86@gmail.com
+nikankshajn@gmail.com
+priyeshashrivastava@gmail.com
+nirajkumaribhu@gmail.com
+sarkarishita95@gmail.com
+akshay14794@gmail.com 
+lomate.dhanraj8@gmail.com
+prith_20@outlook.com
+ashokvarma10@gmail.com
+amarpratap975@gmail.com
+Pranitha.ravindranath@gmail.com
+venugopaldas0@gmail.com
+vikas.vicky.s1234@gmail.com
+bhagyashrisomnathe26@gmail.com
+saha.nabonita@gmail.com
+paturikiran260@gmail.com
+harishsaiju21@gmail.com
+reachradhikar@gmail.com
+snehalkadolkar10@gmail.com
+chennavinayak666666@gmail.com
+amolnagose12@gmail.com
+Tilakesh@yahoo.com
+malinakul61@gmail.com
+midhunshyam@hotmail.com
+govardhank168@gmail.com
+saket007saket@gmail.com
+mail.vaidyasuvarna@gmail.com
+kishorej1801@gmail.com
+priyeshashrivastava@gmail.com
+richamshr94@gmail.com
+mail.vaidyasuvarna@gmail.com
+aayudw99@gmail.com
+nikankshajn@gmail.com 
+shree.y2122@gmail.com
+msindhoori8@gmail.com
+pariharsatish32@gmail.com
+sagarpawar.sp1997@gmail.com
+shilpa.sonawane7@gmail.com
+rameshkrish6677@gmail.com
+kishorej1801@gmail.com
+amarpratap975@gmail.com
+pandeydeepak234@gmail.com
+prith_20@outlook.com
+rachitmishra82@gmail.com
+vijayter59@gmail.com
+akshay14794@gmail.com
+dolatram0103@gmail.com
+pralaynarmada@gmail.com
+ravikonar20@gmail.com
+deepikavpotdar@gmail.com
+mohankumarkavipriya@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
